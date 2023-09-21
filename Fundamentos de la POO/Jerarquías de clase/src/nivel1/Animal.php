@@ -1,12 +1,11 @@
 <?php
 
-class Gato {
+class Animal {
 	public $nombre;
 	public $sexo;
 	public $edad;
 	public $peso;
 	public $color;
-	public $textura;
 
 	function respirar() {}
 
@@ -19,8 +18,6 @@ class Gato {
 	}
 
 	function dormir($horas) {
-		echo "Voy a dormir $horas horas\n";
+		echo "Durmiendo $horas horas\n";
 	}
-
-	function maullar() {}
 }
