@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"allowImportingTsExtensions": true,
+		"moduleResolution": "Bundler",
+		"noEmit": true
+	},
+	"include": [
+		"*/**/*.ts",
+		"*.ts"
+	]
+}
